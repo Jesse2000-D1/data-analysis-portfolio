@@ -61,6 +61,7 @@ SELECT
     END AS customer_segment
 FROM RFM_Scores; 
 ```
+
 ```python
 #### 🐍 Python Analysis: Logistic Regression Modeling
 
