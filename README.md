@@ -2,7 +2,7 @@
 **Data Analyst | Business Intelligence & Data-Driven Problem Solver**
 
 📍 Based in [Minneapolis, Minneosta]  
-📫 Contact: [your.email@example.com](jessembebuin.work@outlook.com) | [LinkedIn](https://www.linkedin.com/feed/)
+📫 Contact: (jessembebuin.work@outlook.com) | [LinkedIn](https://www.linkedin.com/feed/)
 
 ---
 
