@@ -59,7 +59,7 @@ SELECT
         WHEN R_Score >= 4 AND F_Score >= 4 THEN 'Loyal Power User'
         ELSE 'Casual Buyer'
     END AS customer_segment
-FROM RFM_Scores;  ```.
+FROM RFM_Scores;```
 
 ```python
 #### 🐍 Python Analysis: Logistic Regression Modeling
