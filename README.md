@@ -28,7 +28,7 @@
 
 **Objective:** Analyze transaction history, quantify churn triggers, segment customers using Recency, Frequency, and Monetary (RFM) scoring, and deliver targeted retention strategies.
 
-#### 🛠 SQL Analysis: RFM Segmentation
+sql</code> and <code>
 ```sql
 WITH CustomerMetrics AS (
     SELECT 
