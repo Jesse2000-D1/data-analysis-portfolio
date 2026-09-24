@@ -150,11 +150,11 @@ print(bottlenecks.sort_values(by='avg_delay', ascending=False))
  ```
 
 ### KEY INSIGHTS & BUSINESS RECOMMENDATIONS
--Severe Bottleneck in Midwest Hub: Carrier "LogiTrans" averaged a 3.4-day delay on Midwest distribution routes, accounting for 42% of all late delivery penalty fees.
+ 1. Severe Bottleneck in Midwest Hub: Carrier "LogiTrans" averaged a 3.4-day delay on Midwest distribution routes, accounting for 42% of all late delivery penalty fees.
 
--On-Time Discrepancy: Regional carriers outperformed national carriers on short-haul routes with an 89% on-time delivery rate compared to national carriers at 71%.
+2. On-Time Discrepancy: Regional carriers outperformed national carriers on short-haul routes with an 89% on-time delivery rate compared to national carriers at 71%.
 
--Dynamic Carrier Reallocation: Shift 30% of Midwest short-haul volume from LogiTrans to top-performing regional logistics providers.
+3. Dynamic Carrier Reallocation: Shift 30% of Midwest short-haul volume from LogiTrans to top-performing regional logistics providers.
 
--Projected Cost Savings: Route optimization and volume re-balancing are estimated to reduce overall order delays by 18% and save ~$140K annually in late penalties.
+4. Projected Cost Savings: Route optimization and volume re-balancing are estimated to reduce overall order delays by 18% and save ~$140K annually in late penalties.
  ```
