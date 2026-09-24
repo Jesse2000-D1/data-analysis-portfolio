@@ -1,9 +1,8 @@
 # Hi, I'm Jesse 👋
 **Data Analyst | Business Intelligence & Data-Driven Problem Solver**
-
-📍 Based in [Minneapolis, Minneosta]  
-📫 Contact: (jessembebuin.work@outlook.com) | [LinkedIn](https://www.linkedin.com/feed/)
-
+Minnesota, Minneapolis
+📫 Contact: [jessembebuin.work@outlook.com](mailto:jessembebuin.work@outlook.com) 
+| [LinkedIn](https://www.linkedin.com)
 ---
 
 ## 🛠 Tech Stack & Tools
