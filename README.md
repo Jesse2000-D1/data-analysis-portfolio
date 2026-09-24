@@ -104,8 +104,6 @@ print(feature_importance)
  - Targeted Re-Engagement: Deploy tailored 15% discount win-back campaigns specifically targeted at "At-Risk Champions" upon reaching 45 days of inactivity.
 ```
 
----
-
 ### PROJECT 2: Supply Chain Fulfillment Optimization
 **Business Problem:** A regional distribution network experienced late delivery penalties totaling **$340K annually** due to carrier bottlenecks, unoptimized transit routes, and severe regional fulfillment delays.
 
