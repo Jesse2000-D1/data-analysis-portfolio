@@ -101,4 +101,4 @@ print(feature_importance)
 
 - Automated VIP Retention Workflows: Establish an automated escalation protocol for high-tier customers opening support tickets to resolve issues before churn risk escalates.
 
-  - Targeted Re-Engagement: Deploy tailored 15% discount win-back campaigns specifically targeted at "At-Risk Champions" upon reaching 45 days of inactivity.
+ - Targeted Re-Engagement: Deploy tailored 15% discount win-back campaigns specifically targeted at "At-Risk Champions" upon reaching 45 days of inactivity.
