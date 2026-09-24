@@ -95,10 +95,10 @@ print(feature_importance)
 ```
 
 ### Key Insights & Business Recommendations
--Support Friction Drives Loss: Customers who logged >3 support tickets in 30 days showed a 64% higher probability of churning, indicating unresolved fulfillment and product quality issues.
+- Support Friction Drives Loss: Customers who logged >3 support tickets in 30 days showed a 64% higher probability of churning, indicating unresolved fulfillment and product quality issues.
 
--High-Value Revenue At Risk: Identified 4,200 "At-Risk Champions" representing over $1.2M in annual recurring revenue who have been inactive for over 60 days.
+- High-Value Revenue At Risk: Identified 4,200 "At-Risk Champions" representing over $1.2M in annual recurring revenue who have been inactive for over 60 days.
 
--Automated VIP Retention Workflows: Establish an automated escalation protocol for high-tier customers opening support tickets to resolve issues before churn risk escalates.
+- Automated VIP Retention Workflows: Establish an automated escalation protocol for high-tier customers opening support tickets to resolve issues before churn risk escalates.
 
-  -Targeted Re-Engagement: Deploy tailored 15% discount win-back campaigns specifically targeted at "At-Risk Champions" upon reaching 45 days of inactivity.
+  - Targeted Re-Engagement: Deploy tailored 15% discount win-back campaigns specifically targeted at "At-Risk Champions" upon reaching 45 days of inactivity.
