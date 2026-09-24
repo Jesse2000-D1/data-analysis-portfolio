@@ -23,10 +23,13 @@
 ---
 
 ## 📂 Featured Projects
- ### Project 1: E-Commerce Customer Churn & Retention Analysis
+
+### Project 1: E-Commerce Customer Churn & Retention Analysis
 **Business Problem:** An e-commerce retailer experienced an annual customer drop-off rate of 28%, significantly impacting monthly recurring revenue. The executive team lacked visibility into which customer segments were leaving and why.
 
 **Objective:** Analyze transaction history, quantify churn triggers, segment customers using Recency, Frequency, and Monetary (RFM) scoring, and deliver targeted retention strategies.
+
+#### 🛠 SQL Analysis: RFM Segmentation
 
 ```sql
 WITH CustomerMetrics AS (
