@@ -59,8 +59,7 @@ SELECT
         WHEN R_Score >= 4 AND F_Score >= 4 THEN 'Loyal Power User'
         ELSE 'Casual Buyer'
     END AS customer_segment
-FROM RFM_Scores; 
-```
+FROM RFM_Scores; ```
 
 ```python
 #### 🐍 Python Analysis: Logistic Regression Modeling
@@ -91,8 +90,7 @@ feature_importance = pd.DataFrame({
 }).sort_values(by='Coefficient', ascending=False)
 
 print("--- Key Drivers of Churn ---")
-print(feature_importance)
-```
+print(feature_importance)```
 
 ### Key Insights & Business Recommendations
 Support Friction Drives Loss: Customers who logged >3 support tickets in 30 days showed a 64% higher probability of churning, indicating unresolved fulfillment and product quality issues.
