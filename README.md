@@ -108,6 +108,7 @@ print(feature_importance)
 **Business Problem:** A regional distribution network experienced late delivery penalties totaling **$340K annually** due to carrier bottlenecks, unoptimized transit routes, and severe regional fulfillment delays.
 
 **Objective:** Analyze carrier delivery performance across distribution nodes, quantify transit delays by carrier and region, and build an exploratory optimization model to reallocate volume to high-performing carriers.
+ ```
 
 #### 🛠 SQL Analysis: Carrier Delay & Performance Metrics
 
@@ -127,21 +128,21 @@ ORDER BY late_delivery_pct DESC;
 import pandas as pd
 import numpy as np
 
-# Load shipment and logistics tracking logs
+#Load shipment and logistics tracking logs
 shipments = pd.read_csv('data/supply_chain_shipments.csv')
 
-# Calculate fulfillment delays (Actual vs Promised)
+#Calculate fulfillment delays (Actual vs Promised)
 shipments['delay_days'] = shipments['actual_transit_days'] - shipments['estimated_transit_days']
 shipments['is_delayed'] = shipments['delay_days'] > 0
 
-# Carrier delay summary by regional hub
+#Carrier delay summary by regional hub
 carrier_performance = shipments.groupby(['origin_region', 'carrier_id']).agg(
     total_orders=('shipment_id', 'count'),
     avg_delay=('delay_days', 'mean'),
     on_time_rate=('is_delayed', lambda x: (1 - x.mean()) * 100)
 ).reset_index()
 
-# Filter out high-delay regional bottlenecks (>2 days avg delay)
+#Filter out high-delay regional bottlenecks (>2 days avg delay)
 bottlenecks = carrier_performance[carrier_performance['avg_delay'] > 2.0]
 print("--- Critical Regional Bottlenecks ---")
 print(bottlenecks.sort_values(by='avg_delay', ascending=False))
@@ -155,4 +156,4 @@ print(bottlenecks.sort_values(by='avg_delay', ascending=False))
 - Dynamic Carrier Reallocation: Shift 30% of Midwest short-haul volume from LogiTrans to top-performing regional logistics providers.
 
 - Projected Cost Savings: Route optimization and volume re-balancing are estimated to reduce overall order delays by 18% and save ~$140K annually in late penalties.
-
+ ```
